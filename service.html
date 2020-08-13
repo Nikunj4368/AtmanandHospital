@@ -1,0 +1,110 @@
+<html>
+<head>
+	<title> Atmanand Hospital </title>
+	
+	<link href="css/style.css" type="text/css" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script>
+		var id;
+		$(document).ready(function(){
+  			$("a").click(function(){
+  				id= $(this).attr("id");
+  				if( id == 1)
+  				{
+  					$(".d1").css({"margin":"60px 0px 10px 65px","width":"100%","height":"220px","padding":"10px","":""});
+  					$(".emage").css({"width":"300px","height":"200px","box-shadow":"10px 10px 10px 10px #c1cfd6","border-radius":"10px 10px 10px 10px"});
+  					// $("#3").removeClass("activate");
+  					// $("#1").addClass("activate");
+  				}
+  				if(id == 2)
+  				{
+  					$(".d1").css({"margin":"60px 0px 10px 65px","width":"40%","height":"220px","padding":"10px","float":"left"});
+  					$(".emage").css({"width":"300px","height":"200px","box-shadow":"10px 10px 10px 10px #c1cfd6","border-radius":"10px 10px 10px 10px"});	
+  					// $("#3").removeClass("activate");
+  					// $("#2").addClass("activate");
+  				}
+  				if(id == 3)
+  				{
+  					location.reload(true);
+  				}
+  			});
+		});	
+	</script>
+</head>
+<body>
+	<div class="logo" >
+		<div>
+			<table>
+				<tr>
+					<td width="600px" class="f1"> <font color="#428bca"> Atmanand </font><font color="#000"> Hospital</font> </td>
+					<td> <br><br>
+						<font size="4px"> 
+							<a href="index.html">HOME</a> 
+							<a href="about.html">ABOUT US</a>  
+							<a href="service.html" class="activate">SERVICE</a>
+							<a href="doctor.html">DOCTORS</a> 
+							<a href="contact.html">CONTACT US</a>
+						</font>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+
+	<div class="bottom" style="padding-top: 70px;">
+		<div>
+			<table border="0">
+				<tr>
+					<td width="700px">
+						<font color="#000"> OUR OUTSTANDING SERVICES</font> <br> <br>
+						<font color="#000" size="6px"> What We Offer! </font> <br> <br>
+ 					</td>
+ 				</tr>
+ 			</table>
+ 		</div>
+ 	</div>
+	<div class="order" >
+		<div class="list"><a id="3" ><img src="img/3by3.png" class="listview"></a></div>
+		<div class="list"><a id="2" ><img src="img/2by2.png" class="listview"></a></div>
+		<div class="list"><a id="1" ><img src="img/1by1.jfif" class="listview"></a></div>
+	</div>	
+	<div class="services">
+		<div class="d1"><img src="img/01.jpg" class="emage"><div class="text"><b> Dental Implants </b></div></div>
+		<div class="d1"><img src="img/laboratory.jpg" class="emage"><div class="text"><b>Laboratory</b></div></div>
+		<div class="d1"><img src="img/emer.jpg" class="emage"><div class="text"><b>Emergency Contraception</b></div></div>
+		<div class="d1"><img src="img/white.jpg" class="emage"><div class="text"><b>Whitening</b></div></div>
+		<div class="d1"><img src="img/v.jpg" class="emage"><div class="text"><b>Vaccination</b></div></div>
+		<div class="d1"><img src="img/ban.jpg" class="emage"><div class="text"><b>Medical Dressage</b></div></div>			
+	</div>
+	
+	<div class="bottom">
+		<div>
+			<table border="0">
+				<tr>
+					<td width="700px">
+						<font color="#000">------------ </font> <br> <br>
+						<font color="#000" size="6px"> Our Department </font> <br> <br>
+						<ul>
+							<li> DENTAL Care</li>
+							<li> OTOLOGY</li>
+							<li> CARDIAC</li>
+							<li> HEPATOLOGY</li>
+							<li> ORTHOPEDICS</li>
+							<li> GASTROENTEROLOGY</li>
+							<li> OUTPATIENT</li>
+							<li> MENTAL HEALTH</li>
+						</ul>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</div><br>
+
+	<div class="nav_down">
+		<div>
+			<center>&copy; Atmanand Hospital, site designed & developed by NIKUJ KATARIYA & NANCY OSLANIYA</center>
+		</div>
+	</div>
+</body>
+</html>
+	
